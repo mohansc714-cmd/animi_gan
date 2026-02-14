@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.h5
+checkpoints/
+results/
+*.png
+!final_sample.png
+ganyu/
+verify_model.py
