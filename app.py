@@ -47,4 +47,5 @@ def generate():
     return {"image": img_base64}
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=8888)
+    # Using port 7860 for Hugging Face Spaces compatibility
+    app.run(debug=False, host='0.0.0.0', port=7860)
